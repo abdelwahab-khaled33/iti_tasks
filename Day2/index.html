@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .margin {
+            margin-left: 75px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+
+        }
+
+        ul li {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Main</a></li>
+                <li><a href="#">Make an Order</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <h1>Black Goose Bistro | Pizza-om-Demand</h1>
+    </header>
+    <main>
+        <p>welcome to our pizza resturant, we wish you the best time with us.</p>
+        <fieldset>
+            <legend>Your Information</legend>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" class="margin" name="name" id=""></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" class="margin" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Telephone Number:</td>
+                    <td><input type="tel" class="margin" name="tel" id=""></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" class="margin" name="email" id=""></td>
+                </tr>
+            </table>
+            <label for="">Delivery Instructions:</label>
+            <br>
+            <textarea name="delivery" id="" cols="50" rows="5" placeholder="No more than 400 character long"
+                maxlength="400"></textarea>
+        </fieldset>
+        <h2>Design Your Dream Pizza:</h2>
+
+        <fieldset>
+            <legend>Pizza specs</legend>
+            <fieldset>
+                <legend>Crust(choose one):</legend>
+                <label>
+                    <input type="radio" name="crust" value="classic_White"> Classic White
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="crust"> Multigrain
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="crust"> Choose-stuffed crust
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="crust"> Gluten-free
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Toppings (Choose as many as you want)</legend>
+                <label>
+                    <input type="checkbox" name="red_sause"> Red Sauce
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="white_sause"> White Sauce
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="mozzarella_cheese"> Mozzarella Cheese
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="pepperonei">Pepperonei
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="mushrooms">Mushrooms
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="peppers">Peppers
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="anchovies">Anchovies
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Number</legend>
+                <label>
+                    How many Pizza: <input type="number" name="quantity" style="width:50px">
+                </label>
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="submit" value="Bring me a pizza!">
+        <input type="reset" value="Reset">
+    </main>
+</body>
+
+</html>
