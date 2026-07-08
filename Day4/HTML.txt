@@ -1,0 +1,58 @@
+HTML is the structure of the web page
+
+it has a lot of important tags, these are some of them:
+
+-meta tags
+- link tag
+
+-semantic elements like:
+-header 
+-main
+-footer
+
+-p tag
+-div
+-a
+-img
+figure
+-figcaption
+-form
+-input
+-fieldset
+-legend
+-label
+-select
+-option
+-optgroup
+-datalist
+-detailes
+-summry
+address
+-section
+-article
+-button
+-br
+-hr
+-b
+-em
+-strong
+-i
+mark
+-span
+-ul
+ol
+-li
+-table
+-thead
+-tbody
+-tfoot
+-th
+-tr
+-td
+
+nav
+style
+script
+
+
+
