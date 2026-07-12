@@ -1,0 +1,122 @@
+:root{
+    --background: black;
+}
+body{
+    margin: 0 4%;
+}
+header h1{
+    text-align: center;
+    background-color: var(--background);
+    color: white;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.profile{
+    width: 50%;
+    border-bottom: 2px solid black;
+    margin: 5% 0;
+}
+.profile .name{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.profile .name span{
+    font-size: 1.8rem;
+}
+.profile .name::before{
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: var(--background);
+}
+.profile img{
+    display: inline-block;
+    width: 80px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.profile p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+/* About */
+.about h2{
+    border-bottom: 2px solid black;
+    width: 25%;
+    position: relative;
+}
+.about p{
+    font-size: 1.2rem;
+    background-color: #eee;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    height: 5vh;
+    overflow: auto;
+}
+.about .skills{
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.584);
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid black;
+    background-image: url(../imges/images\ \(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about .skills ul{
+    list-style: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about .skills h3{
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: white;
+}
+.about .skills ul li{
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    margin: 8px 0;
+    font-size: 1.2rem;
+    cursor: grab;
+}
+.contact{
+    text-align: center;
+    margin-top: 35px;
+}
+.contact a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #0000ff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.contact a:hover{
+    background-color: rgb(84, 121, 255);
+}
+/* footer */
+footer{
+    margin: 35px 0;
+    background-color: var(--background);
+    color: white;
+}
+footer div p{
+    text-align: center;
+    padding: 25px 0;
+}
