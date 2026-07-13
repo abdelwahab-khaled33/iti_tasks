@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background: rgb(75, 73, 73);
+}
+body{
+    background-color: antiquewhite;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.container{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px 4px black;
+}
+header h1{
+    text-align: center;
+    background-color: var(--background);
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.profile{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+.profile .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.profile .name span{
+    font-size: 1.8rem;
+}
+
+.profile img{
+    position: relative;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.profile .name img::before{
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 100%;
+    left: 140px;
+    background-color: rgb(245 239 239);
+}
+.profile p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 20px;
+}
+/* description */
+.description h3{
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+.description p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    background-color: #eee;
+    color: black;
+    /* width: 70%; */
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 20vh;
+    overflow: auto;
+}
+.contact{
+    text-align: center;
+    margin: 10px;
+}
+.contact a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4a87e9;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 30%;
+}
+.contact a:hover{
+    background-color: rgb(55, 36, 227);
+}
