@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+nav img{
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0 0;
+}
+nav li{
+    padding: 15px 10px ;
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav li:hover{
+    background-color: rgba(221, 169, 114, 0.721);
+}
+
+.hero-section{
+    color: whitesmoke;
+    height: 100vh;
+}
+
+.hero-bg img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.hero-content{
+    margin-top: 10rem;
+}
+.hero-section button{
+    padding: 15px 10px;
+}
+.hero-section .btn-primary{
+    background-color: rgba(225, 170, 103, 0.733);
+    border-radius: 5px;
+    border: none;
+}
+.hero-section .btn-outline-secondary{
+    border-radius: 5px;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.about{
+    display: flex;
+    justify-content: centera;
+    align-items: center;
+    height: 100vh;
+    padding: 7rem;
+}
+.about-img{
+    flex: 1;
+}
+.about-img img{
+    max-width: 80%;
+}
+.about-content{
+    width: 50%;
+}
+
+.about-ul ul{
+    list-style: none;
+    padding: 0;
+}
+.about-ul ul li{
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.location{
+    display: flex;
+    justify-content: centera;
+    align-items: center;
+    height: 100vh;
+    padding: 7.5rem;
+    background-color: #eee;
+}
+.location-img{
+    flex: 1;
+    text-align: center;
+}
+.location-img img{
+    max-width: 85%;
+}
+.location-content{
+    width: 50%;
+}
+
+.our-baking{
+text-align: center;
+height: 100vh;
+padding: 4rem;
+}
+
+.our-baking h2{
+
+}
+
+.our-baking p{
+    padding: 10px 0;
+}
+
+.our-baking .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.our-baking .card{
+    flex: 1;
+    margin: 0 5px;
+    border: none;
+    text-align: center;
+}
+
+.our-baking .card img{
+    max-width: 90%;
+    border-radius: 0;
+    margin: 0 auto;
+}
+.our-baking .card .card-body{
+
+}
+
+.our-baking .card .card-body h5{
+    font-size: 1.4rem;
+}
+.our-baking .card .card-body p{
+font-size: 1.1rem;
+}
